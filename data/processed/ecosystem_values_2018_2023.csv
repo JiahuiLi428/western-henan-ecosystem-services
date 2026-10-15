@@ -1,0 +1,111 @@
+year,county,county_zh,service,service_label,service_zh,value_yuan,value_cny_100m
+2018,Lushi County,卢氏,provisioning,Provisioning,供给,148324505.27,1.48324505
+2018,Lushi County,卢氏,water_retention,Water retention,水源,45018795.15,0.45018795
+2018,Lushi County,卢氏,carbon_storage,Carbon storage,碳储,1394796950.6,13.94796951
+2018,Lushi County,卢氏,soil_retention,Soil retention,土保,4041571823.97,40.41571824
+2018,Lushi County,卢氏,recreation,Recreation,旅游,4243288611.1,42.43288611
+2018,Lushan County,鲁山,provisioning,Provisioning,供给,916973899.64,9.169739
+2018,Lushan County,鲁山,water_retention,Water retention,水源,99254036.48,0.99254036
+2018,Lushan County,鲁山,carbon_storage,Carbon storage,碳储,2887208949.06,28.87208949
+2018,Lushan County,鲁山,soil_retention,Soil retention,土保,4778984388.21,47.78984388
+2018,Lushan County,鲁山,recreation,Recreation,旅游,9483579548.86,94.83579549
+2018,Luanchuan County,栾川,provisioning,Provisioning,供给,105956036.56,1.05956037
+2018,Luanchuan County,栾川,water_retention,Water retention,水源,65771214.66,0.65771215
+2018,Luanchuan County,栾川,carbon_storage,Carbon storage,碳储,2095899954.38,20.95899954
+2018,Luanchuan County,栾川,soil_retention,Soil retention,土保,6241711942.25,62.41711942
+2018,Luanchuan County,栾川,recreation,Recreation,旅游,11504658803.45,115.04658803
+2018,Luoning County,洛宁,provisioning,Provisioning,供给,789782736.43,7.89782736
+2018,Luoning County,洛宁,water_retention,Water retention,水源,52364757.9,0.52364758
+2018,Luoning County,洛宁,carbon_storage,Carbon storage,碳储,1894715268.8,18.94715269
+2018,Luoning County,洛宁,soil_retention,Soil retention,土保,4120096856.43,41.20096856
+2018,Luoning County,洛宁,recreation,Recreation,旅游,13946040217.15,139.46040217
+2018,Nanzhao County,南召,provisioning,Provisioning,供给,482234592.3,4.82234592
+2018,Nanzhao County,南召,water_retention,Water retention,水源,112908490.44,1.1290849
+2018,Nanzhao County,南召,carbon_storage,Carbon storage,碳储,3060399752.3,30.60399752
+2018,Nanzhao County,南召,soil_retention,Soil retention,土保,7330919973.13,73.30919973
+2018,Nanzhao County,南召,recreation,Recreation,旅游,3930535831.75,39.30535832
+2018,Neixiang County,内乡,provisioning,Provisioning,供给,2164424251.61,21.64424252
+2018,Neixiang County,内乡,water_retention,Water retention,水源,240471353.18,2.40471353
+2018,Neixiang County,内乡,carbon_storage,Carbon storage,碳储,4145156076.58,41.45156077
+2018,Neixiang County,内乡,soil_retention,Soil retention,土保,8998170091.41,89.98170091
+2018,Neixiang County,内乡,recreation,Recreation,旅游,5402776889.12,54.02776889
+2018,Ruyang County,汝阳,provisioning,Provisioning,供给,713497557.39,7.13497557
+2018,Ruyang County,汝阳,water_retention,Water retention,水源,49584101.86,0.49584102
+2018,Ruyang County,汝阳,carbon_storage,Carbon storage,碳储,1617265261.48,16.17265261
+2018,Ruyang County,汝阳,soil_retention,Soil retention,土保,3356509521.26,33.56509521
+2018,Ruyang County,汝阳,recreation,Recreation,旅游,11280142775.82,112.80142776
+2018,Song County,嵩县,provisioning,Provisioning,供给,394260720.78,3.94260721
+2018,Song County,嵩县,water_retention,Water retention,水源,57267924.03,0.57267924
+2018,Song County,嵩县,carbon_storage,Carbon storage,碳储,1898484324.84,18.98484325
+2018,Song County,嵩县,soil_retention,Soil retention,土保,4589356534.18,45.89356534
+2018,Song County,嵩县,recreation,Recreation,旅游,11940630504.93,119.40630505
+2018,Xixia County,西峡,provisioning,Provisioning,供给,442275051.39,4.42275051
+2018,Xixia County,西峡,water_retention,Water retention,水源,197926907.21,1.97926907
+2018,Xixia County,西峡,carbon_storage,Carbon storage,碳储,5343619586.33,53.43619586
+2018,Xixia County,西峡,soil_retention,Soil retention,土保,14755493520.73,147.55493521
+2018,Xixia County,西峡,recreation,Recreation,旅游,5775685855.81,57.75685856
+2018,Xichuan County,淅川,provisioning,Provisioning,供给,1630593953.51,16.30593954
+2018,Xichuan County,淅川,water_retention,Water retention,水源,270872079.42,2.70872079
+2018,Xichuan County,淅川,carbon_storage,Carbon storage,碳储,4038358746.4,40.38358746
+2018,Xichuan County,淅川,soil_retention,Soil retention,土保,10231969504.63,102.31969505
+2018,Xichuan County,淅川,recreation,Recreation,旅游,6713206746.42,67.13206746
+2018,Yiyang County,宜阳,provisioning,Provisioning,供给,2358782040.49,23.5878204
+2018,Yiyang County,宜阳,water_retention,Water retention,水源,55536839.06,0.55536839
+2018,Yiyang County,宜阳,carbon_storage,Carbon storage,碳储,2657922814.49,26.57922814
+2018,Yiyang County,宜阳,soil_retention,Soil retention,土保,3441486183.21,34.41486183
+2018,Yiyang County,宜阳,recreation,Recreation,旅游,21653273131.48,216.53273131
+2023,Yiyang County,宜阳,provisioning,Provisioning,供给,2558961622.58,25.58961623
+2023,Yiyang County,宜阳,water_retention,Water retention,水源,113022022.01,1.13022022
+2023,Yiyang County,宜阳,carbon_storage,Carbon storage,碳储,2810164199.36,28.10164199
+2023,Yiyang County,宜阳,soil_retention,Soil retention,土保,4637641656.15,46.37641656
+2023,Yiyang County,宜阳,recreation,Recreation,旅游,23504209912.82,235.04209913
+2023,Xixia County,西峡,provisioning,Provisioning,供给,385936208.25,3.85936208
+2023,Xixia County,西峡,water_retention,Water retention,水源,255389536.49,2.55389536
+2023,Xixia County,西峡,carbon_storage,Carbon storage,碳储,4879229125.3,48.79229125
+2023,Xixia County,西峡,soil_retention,Soil retention,土保,16454742080.79,164.54742081
+2023,Xixia County,西峡,recreation,Recreation,旅游,9316705888.9,93.16705889
+2023,Neixiang County,内乡,provisioning,Provisioning,供给,2327106253.1,23.27106253
+2023,Neixiang County,内乡,water_retention,Water retention,水源,356755972.91,3.56755973
+2023,Neixiang County,内乡,carbon_storage,Carbon storage,碳储,4540410760.4,45.4041076
+2023,Neixiang County,内乡,soil_retention,Soil retention,土保,12171305422.16,121.71305422
+2023,Neixiang County,内乡,recreation,Recreation,旅游,10558424049.87,105.5842405
+2023,Luanchuan County,栾川,provisioning,Provisioning,供给,139949660.89,1.39949661
+2023,Luanchuan County,栾川,water_retention,Water retention,水源,127174403.04,1.27174403
+2023,Luanchuan County,栾川,carbon_storage,Carbon storage,碳储,2826794095.33,28.26794095
+2023,Luanchuan County,栾川,soil_retention,Soil retention,土保,10517845344.48,105.17845344
+2023,Luanchuan County,栾川,recreation,Recreation,旅游,15768234288.92,157.68234289
+2023,Xichuan County,淅川,provisioning,Provisioning,供给,1448041344.65,14.48041345
+2023,Xichuan County,淅川,water_retention,Water retention,水源,323530317.22,3.23530317
+2023,Xichuan County,淅川,carbon_storage,Carbon storage,碳储,3685162275.95,36.85162276
+2023,Xichuan County,淅川,soil_retention,Soil retention,土保,11027993947.34,110.27993947
+2023,Xichuan County,淅川,recreation,Recreation,旅游,10857272233.41,108.57272233
+2023,Song County,嵩县,provisioning,Provisioning,供给,393788656.09,3.93788656
+2023,Song County,嵩县,water_retention,Water retention,水源,104975779.97,1.0497578
+2023,Song County,嵩县,carbon_storage,Carbon storage,碳储,2074379957.36,20.74379957
+2023,Song County,嵩县,soil_retention,Soil retention,土保,6576692536.74,65.76692537
+2023,Song County,嵩县,recreation,Recreation,旅游,13430164647.15,134.30164647
+2023,Luoning County,洛宁,provisioning,Provisioning,供给,751721282.33,7.51721282
+2023,Luoning County,洛宁,water_retention,Water retention,水源,89946231.89,0.89946232
+2023,Luoning County,洛宁,carbon_storage,Carbon storage,碳储,1860264360.41,18.6026436
+2023,Luoning County,洛宁,soil_retention,Soil retention,土保,5087516919.06,50.87516919
+2023,Luoning County,洛宁,recreation,Recreation,旅游,14034551898.4,140.34551898
+2023,Nanzhao County,南召,provisioning,Provisioning,供给,466338351.61,4.66338352
+2023,Nanzhao County,南召,water_retention,Water retention,水源,183820736.27,1.83820736
+2023,Nanzhao County,南召,carbon_storage,Carbon storage,碳储,3127772991.99,31.27772992
+2023,Nanzhao County,南召,soil_retention,Soil retention,土保,9719931657.46,97.19931657
+2023,Nanzhao County,南召,recreation,Recreation,旅游,7184138590.61,71.84138591
+2023,Ruyang County,汝阳,provisioning,Provisioning,供给,809387408.28,8.09387408
+2023,Ruyang County,汝阳,water_retention,Water retention,水源,80293707.3,0.80293707
+2023,Ruyang County,汝阳,carbon_storage,Carbon storage,碳储,1730154225.5,17.30154226
+2023,Ruyang County,汝阳,soil_retention,Soil retention,土保,4670326399.21,46.70326399
+2023,Ruyang County,汝阳,recreation,Recreation,旅游,12514838620.68,125.14838621
+2023,Lushan County,鲁山,provisioning,Provisioning,供给,689983316.47,6.89983316
+2023,Lushan County,鲁山,water_retention,Water retention,水源,117283139.57,1.1728314
+2023,Lushan County,鲁山,carbon_storage,Carbon storage,碳储,2226825605.83,22.26825606
+2023,Lushan County,鲁山,soil_retention,Soil retention,土保,4794276691.37,47.94276691
+2023,Lushan County,鲁山,recreation,Recreation,旅游,10945631411.29,109.45631411
+2023,Lushi County,卢氏,provisioning,Provisioning,供给,190449597.29,1.90449597
+2023,Lushi County,卢氏,water_retention,Water retention,水源,71444074.25,0.71444074
+2023,Lushi County,卢氏,carbon_storage,Carbon storage,碳储,1848680448.06,18.48680448
+2023,Lushi County,卢氏,soil_retention,Soil retention,土保,6465995229.56,64.6599523
+2023,Lushi County,卢氏,recreation,Recreation,旅游,5769431285.36,57.69431285

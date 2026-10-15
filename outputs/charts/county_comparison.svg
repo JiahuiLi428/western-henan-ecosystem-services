@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="716.77875pt" height="372.11475pt" viewBox="0 0 716.77875 372.11475" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T18:26:51.607981</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 372.11475 
+L 716.77875 372.11475 
+L 716.77875 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 81.35875 339.091 
+L 303.403036 339.091 
+L 303.403036 20.1885 
+L 81.35875 20.1885 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 81.35875 339.091 
+L 81.35875 20.1885 
+" clip-path="url(#pb3606b3d96)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mbd1ff30e74" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="81.35875" y="339.091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="81.35875" y="351.81725" transform="rotate(-0 81.35875 351.81725)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 126.547467 339.091 
+L 126.547467 20.1885 
+" clip-path="url(#pb3606b3d96)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="126.547467" y="339.091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="126.547467" y="351.81725" transform="rotate(-0 126.547467 351.81725)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 171.736183 339.091 
+L 171.736183 20.1885 
+" clip-path="url(#pb3606b3d96)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="171.736183" y="339.091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="171.736183" y="351.81725" transform="rotate(-0 171.736183 351.81725)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 216.9249 339.091 
+L 216.9249 20.1885 
+" clip-path="url(#pb3606b3d96)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="216.9249" y="339.091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="216.9249" y="351.81725" transform="rotate(-0 216.9249 351.81725)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 262.113616 339.091 
+L 262.113616 20.1885 
+" clip-path="url(#pb3606b3d96)" style="fill: none; stroke: #e6e6e6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="262.113616" y="339.091" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="262.113616" y="351.81725" transform="rotate(-0 262.113616 351.81725)">40</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="192.380893" y="363.231" transform="rotate(-0 192.380893 363.231)">Change from 2018 to 2023 (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <defs>
+       <path id="m3ee3667794" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="313.857974" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="316.769849" transform="rotate(-0 74.35875 316.769849)">Lushan County</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="287.014329" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="289.926204" transform="rotate(-0 74.35875 289.926204)">Luoning County</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="260.170684" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="263.082559" transform="rotate(-0 74.35875 263.082559)">Yiyang County</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="233.32704" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="236.238915" transform="rotate(-0 74.35875 236.238915)">Ruyang County</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="206.483395" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="209.39527" transform="rotate(-0 74.35875 209.39527)">Xixia County</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="179.63975" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="182.551625" transform="rotate(-0 74.35875 182.551625)">Xichuan County</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="152.796105" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="155.70798" transform="rotate(-0 74.35875 155.70798)">Song County</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="125.95246" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="128.864335" transform="rotate(-0 74.35875 128.864335)">Nanzhao County</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="99.108816" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="102.020691" transform="rotate(-0 74.35875 102.020691)">Neixiang County</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="72.265171" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="75.177046" transform="rotate(-0 74.35875 75.177046)">Lushi County</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m3ee3667794" x="81.35875" y="45.421526" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="74.35875" y="48.333401" transform="rotate(-0 74.35875 48.333401)">Luanchuan County</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 81.35875 324.595432 
+L 96.482998 324.595432 
+L 96.482998 303.120516 
+L 81.35875 303.120516 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 81.35875 297.751787 
+L 103.537147 297.751787 
+L 103.537147 276.276871 
+L 81.35875 276.276871 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 81.35875 270.908142 
+L 133.142923 270.908142 
+L 133.142923 249.433226 
+L 81.35875 249.433226 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 81.35875 244.064497 
+L 155.394244 244.064497 
+L 155.394244 222.589582 
+L 81.35875 222.589582 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 81.35875 217.220853 
+L 162.771753 217.220853 
+L 162.771753 195.745937 
+L 81.35875 195.745937 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 81.35875 190.377208 
+L 169.366641 190.377208 
+L 169.366641 168.902292 
+L 81.35875 168.902292 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 81.35875 163.533563 
+L 169.917183 163.533563 
+L 169.917183 142.058647 
+L 81.35875 142.058647 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 81.35875 136.689918 
+L 256.000529 136.689918 
+L 256.000529 115.215003 
+L 81.35875 115.215003 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 81.35875 109.846274 
+L 275.542423 109.846274 
+L 275.542423 88.371358 
+L 81.35875 88.371358 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 81.35875 83.002629 
+L 286.087923 83.002629 
+L 286.087923 61.527713 
+L 81.35875 61.527713 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 81.35875 56.158984 
+L 292.829498 56.158984 
+L 292.829498 34.684068 
+L 81.35875 34.684068 
+z
+" clip-path="url(#pb3606b3d96)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 81.35875 339.091 
+L 81.35875 20.1885 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 81.35875 339.091 
+L 303.403036 339.091 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="81.35875" y="14.1885" transform="rotate(-0 81.35875 14.1885)">County total</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_16">
+    <path d="M 383.043036 233.853175 
+L 709.57875 233.853175 
+L 709.57875 20.1885 
+L 383.043036 20.1885 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p820c83657f)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAcYAAAEpCAYAAAAJcIJ+AAAFkklEQVR4nO3Xv4qcZRyG4Zn4aQYkFosREuyMrvgHbDwK8RTS2gX1IHIAehw5AG20ETshIoIWSiBCiLvBHY2bzc7MZ+ldpJ03aK6re6f5hqe5+S2P/3w8Lxhi9csPlh7g/Nq7dh5kdXTX1oPs1mtbD3Jh1IcA4L9AGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEgppfO/uibPfrx1i37DvDmR5ftPMj50X1bDzK9/IqtB3ExAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwAIIwA8mYsRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAYto8ODbIIL99862tB3jj+nU7DzKfntp61NZnj2w9iIsRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAhBEAnszFCAAhjAAQwggAIYwAEMIIACGMABDCCAAhjAAQ07zZ9M0eXfvwA/uOMJt5lPO/T409yLTb2XoQFyMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQEyrw7f6Zo+urNf2HeD5K1ftPMi8Obf1IHe/+NLWg7gYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBiWmw3fbNHF1Yr+/K/snxuetp/4Zkxz7un/ReeGS5GAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIBYnt35de4P7M93N2+ad4D3Pv3EzoP89fNPth7kxddet/UgLkYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgBBGAAhhBIAQRgAIYQSAEEYACGEEgJiWF1d9s0cHh4f2HWD5wkU7D7I6OLD1ILc/+9zWg7gYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBCGAEghBEAQhgBIIQRAEIYASCEEQBi2q5P+maPLr161b4DzI/P7DzIvN3aepCH9+7ZehAXIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJATJsHx32zR6dHth7h0tHvQ77DYnH/9vdmGOT9j2/YehAXIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJATIvdtm/26M5XX9t3gMvvvG3nQR6dnNh6kHne2XoQFyMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACQAgjAIQwAkAIIwCEMAJACCMAhDACwOJf/wCGNGYrZmKQNwAAAABJRU5ErkJggg==" id="image942bbdb17c" transform="scale(1 -1) translate(0 -213.84)" x="383.043036" y="-20.013175" width="326.88" height="213.84"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_22"/>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif" transform="translate(379.035274 267.038155) rotate(-35)">Provisioning</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_23"/>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif" transform="translate(435.540132 273.239233) rotate(-35)">Water retention</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_24"/>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif" transform="translate(500.17709 273.750716) rotate(-35)">Carbon storage</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_25"/>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif" transform="translate(572.457792 268.825562) rotate(-35)">Soil retention</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_26"/>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif" transform="translate(644.324295 264.232649) rotate(-35)">Recreation</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_12">
+     <g id="line2d_27"/>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="32.812406" transform="rotate(-0 379.543036 32.812406)">Luanchuan County</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_28"/>
+     <g id="text_25">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="52.236467" transform="rotate(-0 379.543036 52.236467)">Lushi County</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_29"/>
+     <g id="text_26">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="71.660528" transform="rotate(-0 379.543036 71.660528)">Neixiang County</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_30"/>
+     <g id="text_27">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="91.08459" transform="rotate(-0 379.543036 91.08459)">Nanzhao County</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_31"/>
+     <g id="text_28">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="110.508651" transform="rotate(-0 379.543036 110.508651)">Song County</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_32"/>
+     <g id="text_29">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="129.932712" transform="rotate(-0 379.543036 129.932712)">Xichuan County</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_33"/>
+     <g id="text_30">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="149.356774" transform="rotate(-0 379.543036 149.356774)">Xixia County</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_34"/>
+     <g id="text_31">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="168.780835" transform="rotate(-0 379.543036 168.780835)">Ruyang County</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_35"/>
+     <g id="text_32">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="188.204897" transform="rotate(-0 379.543036 188.204897)">Yiyang County</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_36"/>
+     <g id="text_33">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="207.628958" transform="rotate(-0 379.543036 207.628958)">Luoning County</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_37"/>
+     <g id="text_34">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end" x="379.543036" y="227.053019" transform="rotate(-0 379.543036 227.053019)">Lushan County</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_17">
+    <path d="M 383.043036 233.853175 
+L 383.043036 20.1885 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 383.043036 233.853175 
+L 709.57875 233.853175 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="383.043036" y="14.1885" transform="rotate(-0 383.043036 14.1885)">Service change</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_19">
+    <path d="M 423.86 303.500714 
+L 668.761786 303.500714 
+L 668.761786 291.255625 
+L 423.86 291.255625 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAVQAAAARCAYAAACCcFTeAAABIklEQVR4nO3USW7DMAwAQKn//19f0Cf0ahXeZHpt0LC3mQCxRS0UE4D18+u7lVJKraWrIbCG+3QN731ZvZ0/rV82nc+I83HPsnYJxDy7+4WJ8xnbudujXuZ9XP/4G8S7Heq7OXtX4+P8zX8SF7S2e2/TeIlNry2sGd/HYRzPsf14Dkzfcf/Fc/z0/Wvu9sqacMdxxUOOl2rs46XG3fiqxnW0r/mUc7r/8V7nerb7hxzhPuuGdlXPMMaGeTiMZw1zbA702OQwP8V/2bOeH/dc5SyH+b/c4a18N+f3/G/m+896PuaTAHiXhgqQREMFSKKhAiTRUAGSaKgASTRUgCQaKkASDRUgiYYKkERDBUiioQIk0VABkmioAEk0VIAkGipAyfEDrcRva5CyHdEAAAAASUVORK5CYII=" id="imageb9ef56d4fb" transform="scale(1 -1) translate(0 -12.24)" x="424.08" y="-290.88" width="244.8" height="12.24"/>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_11">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="423.86" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="423.86" y="316.226964" transform="rotate(-0 423.86 316.226964)">−40</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="485.085446" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="485.085446" y="316.226964" transform="rotate(-0 485.085446 316.226964)">−20</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="546.310893" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="546.310893" y="316.226964" transform="rotate(-0 546.310893 316.226964)">0</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="569.971026" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="569.971026" y="316.226964" transform="rotate(-0 569.971026 316.226964)">20</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="593.63116" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="593.63116" y="316.226964" transform="rotate(-0 593.63116 316.226964)">40</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="617.291293" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="617.291293" y="316.226964" transform="rotate(-0 617.291293 316.226964)">60</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="640.951427" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="640.951427" y="316.226964" transform="rotate(-0 640.951427 316.226964)">80</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#mbd1ff30e74" x="664.61156" y="303.500714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="664.61156" y="316.226964" transform="rotate(-0 664.61156 316.226964)">100</text>
+     </g>
+    </g>
+    <g id="text_44">
+     <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="546.310893" y="327.640714" transform="rotate(-0 546.310893 327.640714)">Change (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6"/>
+   <g id="LineCollection_1"/>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb3606b3d96">
+   <rect x="81.35875" y="20.1885" width="222.044286" height="318.9025"/>
+  </clipPath>
+  <clipPath id="p820c83657f">
+   <rect x="383.043036" y="20.1885" width="326.535714" height="213.664675"/>
+  </clipPath>
+ </defs>
+</svg>
