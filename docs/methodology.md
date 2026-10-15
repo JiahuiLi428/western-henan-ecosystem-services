@@ -1,5 +1,7 @@
 # Methodology and scope
 
+For the study motivation, geographic setting, source-data families and value-realisation discussion, see [thesis research context](thesis_context.md).
+
 ## Study design
 
 The source thesis compared ecosystem-service values for 11 counties in mountainous western Henan in 2018 and 2023. The valuation framework combined ecological-process modelling and emergy analysis.
