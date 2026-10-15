@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from src.portfolio_analysis import load_data, validate_data
-from src.visualization import create_portfolio_figure
+from src.visualization import create_portfolio_figure, create_readme_hero
 
 
 def main() -> None:
@@ -16,7 +16,10 @@ def main() -> None:
     output_base = ROOT / "outputs" / "charts" / "portfolio_overview"
     data = load_data(data_path)
     checks = validate_data(data)
-    outputs = create_portfolio_figure(data, output_base)
+    outputs = [
+        *create_readme_hero(data, ROOT / "outputs" / "charts" / "readme_hero"),
+        *create_portfolio_figure(data, output_base),
+    ]
     print("Validation passed:")
     for key, value in checks.items():
         print(f"  {key}: {value}")

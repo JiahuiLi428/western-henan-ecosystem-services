@@ -8,6 +8,7 @@ matplotlib.use("Agg")
 import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.lines import Line2D
 
 from src.portfolio_analysis import (
     SERVICE_LABELS,
@@ -60,6 +61,107 @@ def add_panel_label(ax, label: str) -> None:
         ha="left",
         va="bottom",
     )
+
+
+def create_readme_hero(data, output_base: str | Path) -> list[Path]:
+    """Create an English, data-driven water-retention comparison for GitHub."""
+    apply_style()
+    output_base = Path(output_base)
+    output_base.parent.mkdir(parents=True, exist_ok=True)
+
+    water = data.loc[data["service"].astype(str).eq("water_retention")]
+    wide = water.pivot(index="county", columns="year", values="value_cny_100m")
+    wide["change_pct"] = (wide[2023] / wide[2018] - 1) * 100
+    wide = wide.sort_values(2023, ascending=False)
+
+    total_2018 = float(wide[2018].sum())
+    total_2023 = float(wide[2023].sum())
+    regional_change = (total_2023 / total_2018 - 1) * 100
+    increased = int(wide["change_pct"].gt(0).sum())
+    growth_leaders = wide.sort_values("change_pct", ascending=False).head(3)
+
+    navy = "#17324D"
+    blue = "#247BA0"
+    aqua = "#52A9B5"
+    slate = "#8D99A6"
+    pale = "#E7EEF2"
+
+    fig = plt.figure(figsize=(14.2, 7.4), facecolor="white")
+    grid = fig.add_gridspec(
+        1,
+        2,
+        width_ratios=[3.2, 1.15],
+        left=0.08,
+        right=0.96,
+        bottom=0.14,
+        top=0.76,
+        wspace=0.13,
+    )
+
+    ax = fig.add_subplot(grid[0, 0])
+    positions = np.arange(len(wide))
+    for y, (_, row) in zip(positions, wide.iterrows()):
+        ax.plot([row[2018], row[2023]], [y, y], color=aqua, linewidth=3.4, alpha=0.78, solid_capstyle="round")
+        ax.scatter(row[2018], y, s=70, facecolor="white", edgecolor=slate, linewidth=1.8, zorder=3)
+        ax.scatter(row[2023], y, s=80, facecolor=blue, edgecolor="white", linewidth=0.9, zorder=4)
+        ax.text(row[2023] + 0.10, y, f"+{row['change_pct']:.1f}%", va="center", color=blue, fontsize=8.2, fontweight="bold")
+
+    county_labels = [county.replace(" County", "") for county in wide.index]
+    ax.set_yticks(positions, labels=county_labels)
+    ax.invert_yaxis()
+    ax.set_xlim(0.25, 4.15)
+    ax.set_xticks(np.arange(0.5, 4.1, 0.5))
+    ax.set_xlabel("Estimated water-retention value (RMB 100 million)", color="#4F5B66", labelpad=10)
+    ax.grid(axis="x", color=pale, linewidth=1)
+    ax.tick_params(axis="y", length=0, pad=8, labelcolor=navy)
+    ax.tick_params(axis="x", colors="#65727E")
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    legend = [
+        Line2D([0], [0], marker="o", color="none", markerfacecolor="white", markeredgecolor=slate, markeredgewidth=1.7, markersize=7, label="2018"),
+        Line2D([0], [0], marker="o", color="none", markerfacecolor=blue, markeredgecolor="white", markersize=8, label="2023"),
+    ]
+    ax.legend(handles=legend, loc="lower left", bbox_to_anchor=(0, 1.03), ncol=2, handletextpad=0.5, columnspacing=1.5)
+
+    info = fig.add_subplot(grid[0, 1])
+    info.set_xlim(0, 1)
+    info.set_ylim(0, 1)
+    info.axis("off")
+    info.axvline(0.02, color=pale, linewidth=1.2)
+    info.text(0.12, 0.97, "AT A GLANCE", color="#6B7782", fontsize=9, fontweight="bold", va="top")
+    info.text(0.12, 0.80, f"{increased} / 11", color=blue, fontsize=31, fontweight="bold", va="center")
+    info.text(0.12, 0.72, "counties increased", color=navy, fontsize=11, fontweight="bold")
+
+    info.text(0.12, 0.54, f"{total_2018 / 10:.2f}", color=slate, fontsize=18, fontweight="bold")
+    info.text(0.50, 0.54, "→", color="#87929C", fontsize=18, ha="center", fontweight="bold")
+    info.text(0.88, 0.54, f"{total_2023 / 10:.2f}", color=blue, fontsize=18, ha="right", fontweight="bold")
+    info.text(0.12, 0.47, "regional total (RMB billion)", color="#6B7782", fontsize=9)
+    info.text(0.12, 0.36, f"+{regional_change:.1f}%", color=aqua, fontsize=23, fontweight="bold")
+    info.text(0.12, 0.29, "overall change", color=navy, fontsize=9.5, fontweight="bold")
+
+    info.text(0.12, 0.205, "FASTEST GROWTH", color="#6B7782", fontsize=8.5, fontweight="bold")
+    leader_lines = [
+        f"{county.replace(' County', '')}  +{row['change_pct']:.1f}%"
+        for county, row in growth_leaders.iterrows()
+    ]
+    info.text(0.12, 0.145, "\n".join(leader_lines), color=navy, fontsize=8.7, linespacing=1.45, va="top")
+
+    fig.text(0.08, 0.925, "Water-retention value increased across all 11 counties", color=navy, fontsize=24, fontweight="bold")
+    fig.text(0.08, 0.865, "Model-estimated values for mountainous western Henan, 2018–2023", color="#5F6B75", fontsize=12)
+    fig.text(
+        0.08,
+        0.04,
+        "Each line links the same county across time; percentages show relative change. Values are model-derived, not market transactions.",
+        color="#6B7782",
+        fontsize=8.5,
+    )
+
+    outputs = [output_base.with_suffix(".png"), output_base.with_suffix(".svg")]
+    fig.savefig(outputs[0], dpi=220, bbox_inches="tight", facecolor="white", metadata={"Software": "matplotlib"})
+    fig.savefig(outputs[1], bbox_inches="tight", facecolor="white", metadata={"Date": None})
+    plt.close(fig)
+    return outputs
 
 
 def create_portfolio_figure(data, output_base: str | Path) -> list[Path]:
